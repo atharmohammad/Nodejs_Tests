@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="0" errors="0" time="2.943">
+  <testsuite name="Rest API" errors="0" failures="0" skipped="0" timestamp="2022-01-14T20:28:23" time="2.692" tests="8">
+    <testcase classname="Rest API Creating User" name="Rest API Creating User" time="0.137">
+    </testcase>
+    <testcase classname="Rest API login a user" name="Rest API login a user" time="0.017">
+    </testcase>
+    <testcase classname="Rest API add a job" name="Rest API add a job" time="0.018">
+    </testcase>
+    <testcase classname="Rest API get User job" name="Rest API get User job" time="0.012">
+    </testcase>
+    <testcase classname="GraphQL API Create a User" name="GraphQL API Create a User" time="0.036">
+    </testcase>
+    <testcase classname="GraphQL API Login a User" name="GraphQL API Login a User" time="0.015">
+    </testcase>
+    <testcase classname="GraphQL API Add an Job for User" name="GraphQL API Add an Job for User" time="0.018">
+    </testcase>
+    <testcase classname="GraphQL API Get all Jobs by an User" name="GraphQL API Get all Jobs by an User" time="0.013">
+    </testcase>
+  </testsuite>
+</testsuites>

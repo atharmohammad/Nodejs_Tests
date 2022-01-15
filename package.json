@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --forceExit --runInBand",
+    "main_tests": "jest --forceExit --runInBand --verbose --ci --testResultsProcessor=\"jest-junit\" -- index.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.2.0",
+    "jest": "^27.4.7",
+    "jest-junit": "^13.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.15",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.1"
+  }
+}
